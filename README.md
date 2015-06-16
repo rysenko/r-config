@@ -14,8 +14,8 @@ Module will load JSON configurations from ```config``` folder in your project.
 
 It will load configurations in the following order.
 
-1. config/config.json
-2. config/config.<environment>.json
+1. ```config/config.json```
+2. ```config/config.<environment>.json```
 
 Environment defaults to ```development``` if not specified. Default sections specified in config.json will be overriden
 by sections specified it your environment-specific config.
